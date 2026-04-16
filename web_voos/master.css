@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+/* MENU */
+.navbar {
+    background-color: #1e3a5f;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3a5f;
+}
+
+/* FORMULÁRIOS */
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16314f;
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
